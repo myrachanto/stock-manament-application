@@ -1,0 +1,156 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+  background-color: #F8f8ff;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 2px;
+  border-radius: 2;
+  float: left;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 2px 4px;
+          box-shadow: 0 2px 4px;
+}
+
+.spac {
+  margin-bottom: 50px;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+  color: black !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: black !important;
+  background-color: #F8f8ff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #2E8B57 !important;
+}
+
+.btn {
+  margin: 15px 0;
+  background-color: #20B2AA;
+  color: #2E8B57;
+}
+
+.btnab {
+  background-color: #1e90ff;
+}
+
+.btn:hover {
+  border: 1px solid #f4511e;
+  background-color: #20B2AA !important;
+  color: #F8F8FF;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+  color: #30C;
+}
+
+.carousel-indicators li {
+  border-color: #30C;
+}
+
+.carousel-indicators li.active {
+  background-color: #30C;
+}
+
+.specialh {
+  font-family: 'Sofia';
+}
+
+.carodiv {
+  background: rgba(255, 160, 122, 0.9);
+  color: white;
+}
+
+.carodiv2 {
+  background: rgba(248, 248, 255, 0.9);
+}
+
+.carodiv3 {
+  background: rgba(220, 220, 220, 0.9);
+}
+
+.alterdiv1 {
+  background: rgba(255, 255, 240, 0.9);
+}
+
+.alterdiv2 {
+  background: rgba(248, 248, 255, 0.9);
+}
+
+.imgstyle:hover {
+  -webkit-box-shadow: 5px 0px 40px rgba(65, 105, 225, 0.5);
+          box-shadow: 5px 0px 40px rgba(65, 105, 225, 0.5);
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+.xp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.card-item {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 33.33%;
+      flex-basis: 33.33%;
+  max-width: 33.33%;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 16px;
+}
+
+.card-inner {
+  padding: 20px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 2PX 4PX;
+          box-shadow: 0 2PX 4PX;
+}
+
+.card-title {
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  color: #5f6d84;
+}
+
+.card-value {
+  height: 43px;
+  font-size: 30px;
+}
+
